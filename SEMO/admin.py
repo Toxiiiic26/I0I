@@ -150,7 +150,7 @@ async def admin_risght(client: Client, message):
          if userx.photo:
             photo_id = userx.photo.big_file_id
          else:
-            ahmed = await client.get_chat("Elasyoutyy")
+            ahmed = await client.get_chat("VVYVVJ")
             photo_id = ahmed.photo.big_file_id
          photo = await client.download_media(photo_id)
          img = await gen_thumb(videoid, photo)
