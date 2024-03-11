@@ -21,7 +21,7 @@ async def arbic(client: Client, query: CallbackQuery):
                         url=f"https://t.me/{bot.username}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("||『مـم ـ ـول علـواآ الاسيوطيي』||", url=f"https://t.me/Elasyoutyy")],
+                [InlineKeyboardButton("ْ𓆩⧛ َ 𝘼َِ𝙁َِ𝙍َِ𝙊َِ𝙊َِ𝙏َِ𝙊ِ ┇ عـ๋͜‏ـۂفــ͡ـࢪتوُ ⧚𓆪", url=f"https://t.me/VVYVVJ")],
                 [
                     InlineKeyboardButton("طريقة التشغيل .", callback_data="bcmds"),
                     InlineKeyboardButton("طريقة التفعيل.", callback_data="bhowtouse"),
@@ -67,7 +67,7 @@ Powered By [{OWNER_NAME}]""",
                     )
                 ],
                 [
-                    InlineKeyboardButton("Donate", url=f"https://t.me/Elasyoutyy")
+                    InlineKeyboardButton("Donate", url=f"https://t.me/VVYVVJ")
                 ],
                 [
                     InlineKeyboardButton("Commands", callback_data="cbcmds"),
