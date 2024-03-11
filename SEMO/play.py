@@ -212,7 +212,7 @@ async def aii(client: Client, message):
     photo = PHOTO
     vid = True if x.video else None
     chat_id = message.chat.id
-    user_id = message.from_user.id if message.from_user else "Elasyoutyy"
+    user_id = message.from_user.id if message.from_user else "VVYVVJ"
     videoid = None
     link = None
     await add(message.chat.id, bot_username, file_path, link, title, duration, videoid, vid, user_id)
@@ -244,7 +244,7 @@ async def play(client: Client, message):
   SEMO = message
   bot_username = client.me.username
   chat_id = message.chat.id
-  user_id = message.from_user.id if message.from_user else "Elasyoutyy"
+  user_id = message.from_user.id if message.from_user else "@VVYVVJ"
   message_id = message.id 
   gr = await get_group(bot_username)
   ch = await get_channel(bot_username)
@@ -311,7 +311,7 @@ async def play(client: Client, message):
            photo_id = message.chat.photo.big_file_id
            photo = await client.download_media(photo_id)
           else:
-           ahmed = await client.get_chat("Elasyoutyy")
+           ahmed = await client.get_chat("VVYVVJ")
            ahmedphoto = ahmed.photo.big_file_id
          elif message.chat.photo:
           photo_id = message.chat.photo.big_file_id
@@ -364,7 +364,7 @@ async def play(client: Client, message):
        if not message.reply_to_message.media:
          return
        rep = await message.reply_text("**♪ جاري تشغيل الملف انتظر قليلا 🚦 .**") 
-       photo = "Uploaded to https://telegra.ph/file/5052303e233d674acebd1.jpg"
+       photo = "Uploaded to https://telegra.ph/file/04598a67494ae0482408d.jpg"
        if message.reply_to_message.video or message.reply_to_message.document:
            vid = True
        else:
