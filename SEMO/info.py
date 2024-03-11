@@ -45,7 +45,7 @@ def changeImageSize(maxWidth, maxHeight, image):
     return newImage
 
 
-ahmed = "https://telegra.ph/file/448774fc5d5a1ea025a5a.jpg"
+ahmed = "https://telegra.ph/file/04598a67494ae0482408d.jpg"
 
 async def gen_thumb(videoid, photo):
     if os.path.isfile(f"{photo}.png"):
@@ -112,9 +112,9 @@ async def gen_thumb(videoid, photo):
         j = 0
         draw.text(
             (600, 150),
-            "NoNa PlAYiNg",
+            "AFROTOO PlAYiNg",
             fill="white",
-            stroke_width=2,
+            stroke_width=4,
             stroke_fill="white",
             font=font2,
         )
